@@ -7,7 +7,6 @@ const app = new Application([
 ]);
 
 runMigrations().then(() => {
-
   try{
     app.listen(3000);
   }catch(err){
